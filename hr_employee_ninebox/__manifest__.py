@@ -29,7 +29,7 @@
     'author': 'Ananthu Krishna',
     'maintainer': 'Ananthu',
     'website': 'http://codersfort.com',
-    "images": ["images/parner_google_map_location.png"],
+    "images": ["images/ninebox.png"],
     'license': 'AGPL-3',
     'category': 'hr',
     'depends': ['base','hr','web'],
