@@ -5,7 +5,7 @@
         <field name="model">hr.employee</field>
         <field name="inherit_id" ref="hr.view_employee_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//page[@name='hr_settings']" position="inside">                          
+            <xpath expr="//page[@name='hr_settings']" position="inside">
                 <group>
                     <group string="Talent Ratings">
                         <field name="potential"/>
@@ -13,7 +13,7 @@
                     </group>
                 </group>
             </xpath>
-            <xpath expr="//div[@id='o_employee_main']" position="before">
+            <xpath expr="//div[@class='oe_title']" position="before">
                 <div class="ninebox">
                     <field name="nbox_rating" widget="ninebox"/>
                 </div>

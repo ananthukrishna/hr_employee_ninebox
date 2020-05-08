@@ -29,10 +29,10 @@
     'author': 'Ananthu Krishna',
     'maintainer': 'Ananthu Krishna',
     'website': 'http://codersfort.com',
-    "images": ["images/parner_google_map_location.png"],
-    'license': 'AGPL-3',
+    'images': ['images/ninebox.png'],
+    'license' :  'Other proprietary',
     'category': 'hr',
-    'depends': ['base','hr','web'],
+    'depends': ['hr'],
     'data': [
         'views/hr_employee_view.xml',
         'views/assets.xml'
@@ -40,5 +40,5 @@
     'qweb': ['static/src/xml/ninebox.xml'],
     'installable': True,
     'application': True,
-    
+    'pre_init_hook"': 'pre_init_check',    
 }

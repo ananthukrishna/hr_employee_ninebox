@@ -5,11 +5,7 @@ odoo.define('mytest.ninebox', function (require) {
     var field_registry = require('web.field_registry');    
     var core = require('web.core');
     var QWeb = core.qweb;
-
-    // var basic_fields = require('web.basic_fields');
-    // var FieldChar = basic_fields.FieldChar;
-    // var NineBox = AbstractField.extend(
-
+    
     var NineBox = AbstractField.extend({        
         init: function () {
             this._super.apply(this, arguments);
