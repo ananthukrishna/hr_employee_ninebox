@@ -26,7 +26,7 @@
     'summary': 'NineBox Showing on Employees based on their Potential and Performacne Ratio',
     'version': '1.0',
     'description': """NineBox Showing on Employees based on their Potential and Performacne Ratio""",
-    'author': 'Ananthu Krishna',
+    'author': 'CodersFort',
     'maintainer': 'Ananthu Krishna',
     'website': 'http://codersfort.com',
     'images': ['images/ninebox.png'],
